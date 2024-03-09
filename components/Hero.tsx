@@ -12,7 +12,7 @@ const Hero = () => {
         <p>
           /streamline your car rental experience with our effortless booking process.
         </p>
-        <CustomButton title="Explre Cars" containerStyle="bg-primary-blue text-white rouced-full mt-10" handleClick={handleScroll}/>
+        <CustomButton title="Explre Cars" containerStyles="bg-primary-blue text-white rouced-full mt-10" handleClick={handleScroll}/>
       </div>
       
     </div>

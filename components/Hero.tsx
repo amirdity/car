@@ -1,6 +1,8 @@
+"use client"
 import React from 'react'
 import CustomButton from './CustomButton'
 const Hero = () => {
+  const handleScroll=()=>{};
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
@@ -10,7 +12,7 @@ const Hero = () => {
         <p>
           /streamline your car rental experience with our effortless booking process.
         </p>
-        <CustomButton/>
+        <CustomButton title="Explre Cars" containerStyle="bg-primary-blue text-white rouced-full mt-10" handleClick={handleScroll}/>
       </div>
       
     </div>

@@ -1,8 +1,14 @@
+"use client"
 import React from 'react'
-
+import Image from 'next/image'
 const CustomButton = () => {
   return (
-    <div>CustomButton</div>
+    <button disabled={false} type='button' className='custom-btn' onClick={()=>{}}>
+      <span className='flex-1'>
+        title
+      </span>
+
+    </button>
   )
 }
 
